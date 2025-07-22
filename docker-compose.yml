@@ -29,7 +29,7 @@ services:
 
   mirror:
     image: nginx:stable
-    container_name: mirror-ru2
+    container_name: mirror
     environment:
       - VIRTUAL_HOST=${DOMAIN}
       - LETSENCRYPT_HOST=${DOMAIN}
